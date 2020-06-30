@@ -1,1 +1,1 @@
-# Study_algorithm_with_Java
+# Algorithm_with_Java
