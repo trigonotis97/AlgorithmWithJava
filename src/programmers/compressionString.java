@@ -1,5 +1,5 @@
 package programmers;
-
+/*
 public class compressionString {
     public int solution(String s) {
         int answer = s.length();
@@ -28,3 +28,5 @@ public class compressionString {
         return answer;
     }
 }
+
+ */
