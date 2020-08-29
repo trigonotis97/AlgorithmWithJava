@@ -1,4 +1,4 @@
-package baekjoon;
+package baekjoon.warmup;
 
 public class BOJ_10172 {
 
