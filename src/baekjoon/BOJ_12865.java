@@ -18,12 +18,13 @@ public class BOJ_12865 {
         int h=Integer.parseInt(st.nextToken());
         int max_weight=Integer.parseInt(st.nextToken());
         int [][] arr = new int[100001][100001];
+        /*
         for (int i = 0; i < h; i++) {
 
         }
 
 
         System.out.println(result);
-
+*/
     }
 }
