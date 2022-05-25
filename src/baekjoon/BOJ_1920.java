@@ -41,3 +41,4 @@ public class BOJ_1920 {
         }
     }
 }
+       
