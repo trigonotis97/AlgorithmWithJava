@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BOJ_1874",
+            "request": "launch",
+            "mainClass": "baekjoon.BOJ_1874"
+        }
+    ]
+}

@@ -48,8 +48,13 @@ public class BOJ_1966 {
                     orderInd--;
                     count++;
 
+<<<<<<< Updated upstream
                 }
                 targetInd = targetInd == 0 ? queue.size() - 1 : targetInd - 1;
+=======
+            for (int j = 0; j <docCount; j++) {
+    
+>>>>>>> Stashed changes
             }
         }
 
