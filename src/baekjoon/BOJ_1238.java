@@ -35,7 +35,7 @@ public class BOJ_1238 {
             t = Integer.parseInt(st.nextToken());
             if (!graph.containsKey(s)) graph.put(s, new ArrayList<>());
             graph.get(s).add(new ArriveAndCost(e, t));
-        }hh
+        }
 
         Queue<Integer> queue = new LinkedList<>();
         queue.add(partyPlace);
