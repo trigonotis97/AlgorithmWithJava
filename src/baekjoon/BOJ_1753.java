@@ -12,7 +12,7 @@ public class BOJ_1753 {
         int v = Integer.parseInt(st.nextToken());
         int e = Integer.parseInt(st.nextToken());
         int start = Integer.parseInt(br.readLine());
-        Map<Integer, Set<Node>> nodeMap = new HashMap<>();
+        Map<Integer, List<Node>> nodeMap = new HashMap<>();
         int[] dist = new int[v + 1];
         Arrays.fill(dist,300001);
 
@@ -23,11 +23,11 @@ public class BOJ_1753 {
             int n2 = Integer.parseInt(st.nextToken());
             int w = Integer.parseInt(st.nextToken());
 
-            Set<Node> list;
+            List<Node> list;
             if (nodeMap.containsKey(n1)) {
                 list = nodeMap.get(n1);
             } else {
-                list = new HashSet<>();
+                list = new ArrayList<>();
             }
             list.add(new Node(n2, w));
             nodeMap.put(n1, list);
@@ -41,13 +41,13 @@ public class BOJ_1753 {
         while (!queue.isEmpty()) {
             Node current = queue.poll();
 
-            Set<Node> list = nodeMap.get(current.num);
+            List<Node> list = nodeMap.get(current.num);
             if (list == null || list.isEmpty())
                 continue;
             for (Node node : list) {
                 if (dist[node.num] > dist[current.num] + node.weight ) {
                     dist[node.num] = dist[current.num] + node.weight;
-                    queue.add(node);
+                    queue.add(new Node(node.num,dist[node.num]));
                 }
             }
         }
