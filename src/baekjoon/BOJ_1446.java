@@ -22,6 +22,7 @@ public class BOJ_1446 {
             arr[i] = new Road(s, e, l);
         }
         Arrays.sort(arr);
+        /*
         for (int i = 0; i < n; i++) {
             if (curPos >= arr[i].start && arr[i].end - curPos > arr[i].length) {
                 curPos=arr[i].end;
@@ -29,6 +30,7 @@ public class BOJ_1446 {
             } else if(curPos<arr[i].start && Qatt[curPosp ]) {
             }
         }
+         */
     }
 
     static class Road implements Comparable<Road> {
