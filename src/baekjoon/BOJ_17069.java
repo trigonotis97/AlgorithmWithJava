@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-//doing
+//done
 //https://www.acmicpc.net/problem/17069
 public class BOJ_17069 {
     static long[][][] arr;

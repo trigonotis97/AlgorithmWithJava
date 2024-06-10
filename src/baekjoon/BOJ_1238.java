@@ -12,6 +12,7 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 //doing
+//g3
 //https://www.acmicpc.net/problem/1238
 public class BOJ_1238 {
     static Map<Integer, ArrayList<ArriveAndCost>> graph = new HashMap<>();

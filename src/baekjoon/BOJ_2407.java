@@ -6,6 +6,8 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 //doing
+//s3
+//https://www.acmicpc.net/problem/2407
 public class BOJ_2407 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

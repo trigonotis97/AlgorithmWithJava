@@ -7,6 +7,8 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 //doing
+//https://www.acmicpc.net/problem/4485
+//g4
 public class BOJ_4485 {
     static final int INF = 200000;
 

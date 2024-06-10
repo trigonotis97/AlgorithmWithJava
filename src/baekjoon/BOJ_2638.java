@@ -8,6 +8,7 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 //doing
+//g3
 //https://www.acmicpc.net/problem/2638
 public class BOJ_2638 {
     public static void main(String[] args) throws IOException {
